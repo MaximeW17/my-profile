@@ -1,0 +1,102 @@
+body {
+	background-color:white ;
+	color: black;
+	font-family: "Merriweather", serif;
+	font-weight: 200;
+
+}
+h1{
+	color: #1B3C53;
+	font-family: "Merriweather", serif; /*Titre*/
+	font-weight: 300;
+	font-size: 40px;
+	#logo{width:40px; }
+}
+h2{
+	color: #294D4A;
+	font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+ }
+a {
+	text-decoration: none;
+	color: #456882;
+}
+a:hover {
+	color: #234C6A;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container { 
+	 width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container { 
+	 width: 400px;
+	}
+}
+.card-white{
+	background-color: white;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+	margin:20px 0px;
+	text-align: center;
+}
+.img-profile{
+	border-radius: 0;
+	height:120px;
+	width:390px;
+	object-fit: cover;
+}
+.btn-blue{
+	background-color: #6B72E1;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{ 
+	background-color: black;
+	color:white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;             /* tu gardes la taille */
+}
+
+.fa-square-instagram {
+    color: #E1306C;
+}
+
+.fa-linkedin-in {
+    color: #0A66C2;
+}
+
+}
+.list-inline i:hover{
+	color: black;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
+
+ol {
+    list-style-type: none;
+    padding-left: 0;          /* ← supprime le décalage par défaut */
+}
